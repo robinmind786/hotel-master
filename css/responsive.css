@@ -8,6 +8,11 @@
     }
     footer .designer-info .links {
     	flex-direction: column;
+    	text-align: center;
+    }
+
+    footer .designer-info .links ul {
+    	justify-content: center;
     }
 	.prevs,
 	.nexts {

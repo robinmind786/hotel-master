@@ -1,3 +1,27 @@
-body {
-	
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/*h3*/
+.section-title {
+	position: relative;
+    margin-bottom: 22px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--normal-color);
+}
+
+
+.underline {
+	width: 100%;
+	text-align: center;
+	height: 2px;
+	background: var(--warning-color);
+}
+
+.section-desc {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23.8px;
+	color: rgb(168, 168, 168);
 }

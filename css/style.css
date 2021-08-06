@@ -237,6 +237,7 @@ nav .navbar .nav-links .links .search .search-box .input-box.showInput{
     -webkit-animation-duration: 1.5s;
      animation-name: fade;
      animation-duration: 1.5s;
+     height: 100%;
 }
 
 .slider {
@@ -272,4 +273,28 @@ nav .navbar .nav-links .links .search .search-box .input-box.showInput{
 
 .next {
     right: 0;
+}
+
+/*Services*/
+.services {
+    background-color: var(--dark-color);
+    width: 100%;
+    padding: 60px 0;
+}
+
+.services .services-content {
+    text-align: center;
+    width: 100%;
+}
+
+.services .services-content .services-img img {
+    width: 100%;
+}
+
+.services .services-content .services-title {
+    margin-top: 25px;
+}
+
+.services .services-content .services-desc {
+    margin-top: 30px;
 }

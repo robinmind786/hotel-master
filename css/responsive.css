@@ -3,6 +3,12 @@
     .next img{
     	height: 27px;
     }
+    footer .footer-img {
+    	display: none;
+    }
+    footer .designer-info .links {
+    	flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 600px) {

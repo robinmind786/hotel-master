@@ -363,8 +363,39 @@ nav .navbar .nav-links .links .search .search-box .input-box.showInput{
 }
 
 
+/*About*/
+.about {
+    background: url('/img/about-bg.jpg') no-repeat center center/cover;
+    padding: 130px 0;
+}
 
+.about .about-content .about-desc p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    color: rgb(255, 255, 255);
+}
 
+.about .about-heading h1 {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.about .about-title {
+    margin-top: 4rem;
+}
+
+.about .about-title p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+}
 
 
 

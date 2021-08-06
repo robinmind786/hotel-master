@@ -30,6 +30,9 @@
 	.about .about-content {
 		text-align: center;
 	}
+	.about .about-heading h1 {
+		font-size: 30px;
+	}
 }
 
 @media only screen and (min-width: 600px) {

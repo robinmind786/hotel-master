@@ -65,3 +65,28 @@ function showSlides(n) {
   slides[currentItem-1].style.display = 'block';
   setTimeout(showSlides, 5000);
 }
+
+// Review Slider
+var slideIndex = 1;
+showReview(slideIndex);
+
+function changeRivew(n) {
+  showReview(slideIndex += n);
+}
+
+function showReview(n) {
+  var i;
+  var review = document.getElementsByClassName('reviewSlide');
+  if(n > review.length) {
+    slideIndex = 1;
+  }
+  if(n < 1) {
+    slideIndex = review.length;
+  }
+  for(i = 0; i < review.length; i++) {
+    review[i].style.display = 'none';
+  }
+
+
+  review[slideIndex-1].style.display = 'block';
+}
